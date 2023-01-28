@@ -1,0 +1,21 @@
+train: ./data/train
+val: ./data/val
+# test: ./data/test 
+
+# number of classes
+nc: 11
+
+# class names
+names: [ 
+  'GRAFFITI',
+  'FADED_SIGNAGE',
+  'POTHOLES',
+  'GARBAGE',
+  'CONSTRUCTION_ROAD',
+  'BROKEN_SIGNAGE',
+  'BAD_STREETLIGHT',
+  'BAD_BILLBOARD',
+  'SAND_ON_ROAD',
+  'CLUTTER_SIDEWALK',
+  'UNKEPT_FACADE'
+ ]
